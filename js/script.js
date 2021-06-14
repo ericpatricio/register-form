@@ -24,8 +24,7 @@ function checkInputs(inputArray) {
     if(input.value.trim() === '') {
       showError(input, `${capitalizeFirstLetter(input)} is required`);
     } else {
-      showSuccess(input);
-      window.location.reload();
+      showSuccess(input);      
     }
   });
   
