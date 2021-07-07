@@ -26,8 +26,7 @@ function checkInputs(inputArray) {
     } else {
       showSuccess(input);      
     }
-  });
-  
+  });  
 }
 
 // Capitalize first letter
